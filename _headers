@@ -1,0 +1,13 @@
+# Cache control headers for report-formatter
+# Netlify and some CDNs respect this file.
+# GitHub Pages ignores it but the meta tags in index.html cover that case.
+
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
+
+/version.json
+  Cache-Control: no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: 0
